@@ -73,7 +73,7 @@ const Features = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-white text-primary hover:bg-white/90 px-8 py-4 text-lg font-semibold">
+                <Button className="bg-white text-black hover:bg-white/90 px-8 py-4 text-lg font-semibold">
                   Start Free Trial
                 </Button>
               </a>
@@ -82,7 +82,7 @@ const Features = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg">
+                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg">
                   View Demo
                 </Button>
               </a>

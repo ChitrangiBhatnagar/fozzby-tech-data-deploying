@@ -239,20 +239,20 @@ const Pricing = () => {
                 </div>
 
                 <div className="bg-white/10 rounded-lg p-6">
-                  <h3 className="text-xl font-semibold mb-4">Monthly Results</h3>
+                  <h3 className="text-xl font-semibold mb-4 text-white">Monthly Results</h3>
                   <div className="space-y-3">
                     <div className="flex justify-between">
-                      <span>Potential Revenue:</span>
-                      <span className="font-bold text-secondary">${revenue.toLocaleString()}</span>
+                      <span className="text-white">Potential Revenue:</span>
+                      <span className="font-bold text-white">${revenue.toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Platform Cost:</span>
-                      <span>${isAnnual ? '119' : '149'}</span>
+                      <span className="text-white">Platform Cost:</span>
+                      <span className="text-white">${isAnnual ? '119' : '149'}</span>
                     </div>
                     <div className="border-t border-white/20 pt-3">
                       <div className="flex justify-between text-lg font-bold">
-                        <span>ROI:</span>
-                        <span className="text-secondary">{roi}%</span>
+                        <span className="text-white">ROI:</span>
+                        <span className="text-white">{roi}%</span>
                       </div>
                     </div>
                   </div>
