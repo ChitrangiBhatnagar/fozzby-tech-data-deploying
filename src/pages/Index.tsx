@@ -251,13 +251,13 @@ const Index = () => {
                   <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
                 ))}
               </div>
-              <blockquote className="text-xl lg:text-2xl font-medium mb-6">
+              <blockquote className="text-xl lg:text-2xl font-medium mb-6 text-white">
                 "{testimonials[currentTestimonial].quote}"
               </blockquote>
               <div>
-                <div className="font-semibold text-lg">{testimonials[currentTestimonial].author}</div>
+                <div className="font-semibold text-lg text-white">{testimonials[currentTestimonial].author}</div>
                 <div className="text-white/80">{testimonials[currentTestimonial].role}</div>
-                <div className="text-secondary font-medium">{testimonials[currentTestimonial].company}</div>
+                <div className="text-white font-medium">{testimonials[currentTestimonial].company}</div>
               </div>
             </CardContent>
           </Card>
