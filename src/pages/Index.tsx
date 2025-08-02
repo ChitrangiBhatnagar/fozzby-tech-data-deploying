@@ -135,7 +135,7 @@ const Index = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg">
+                  <Button variant="outline" className="border-white bg-white text-black hover:bg-white/90 px-8 py-4 text-lg">
                     Book Demo
                   </Button>
                 </a>
@@ -405,7 +405,7 @@ const Index = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg">
+              <Button variant="outline" className="border-white bg-white text-black hover:bg-white/90 px-8 py-4 text-lg">
                 Book Demo
               </Button>
             </a>

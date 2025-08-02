@@ -144,7 +144,7 @@ const FAQ = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button variant="outline" size="sm">Book Demo</Button>
+                  <Button variant="outline" size="sm" className="bg-white text-black hover:bg-white/90">Book Demo</Button>
                 </a>
               </CardContent>
             </Card>

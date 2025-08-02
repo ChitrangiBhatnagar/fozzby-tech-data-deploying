@@ -266,7 +266,7 @@ const About = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="outline" className="btn-outline">
+              <Button variant="outline" className="bg-white text-black hover:bg-white/90">
                 Book a Demo
               </Button>
             </a>
